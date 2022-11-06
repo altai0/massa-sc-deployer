@@ -41,7 +41,7 @@ module.exports = async function (name) {
       console.log("\n--- Smart contract deployed ---\n");
       console.log("\n--- Output event ---\n" + filteredEvent[0].data);
       console.log(
-        "---Caller address ---\n" + filteredEvent[0].context.call_stack
+        "---Caller address ---\n" + filteredEvent[0].context.call_stack + "\n\n\n\n\n"
       );
       const finishing = loading("closing...").start();
       const item = {
@@ -52,7 +52,7 @@ module.exports = async function (name) {
       fs.writeFileSync("result.json", data);
       setTimeout(function () {
         finishing.color = "yellow";
-        finishing.text = " Loading rainbows";
+        finishing.text = " complete";
       }, 2000);
       setTimeout(function () {
         finishing.stop();
