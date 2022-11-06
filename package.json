@@ -1,0 +1,31 @@
+{
+  "name": "massa-sc-deployer",
+  "version": "0.0.1",
+  "description": "Massa smart contract deployer",
+  "main": "main.js",
+  "bin": "main.js",
+  "scripts": {
+    "deploy": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altai0/massa-deployer.git"
+  },
+  "keywords": [
+    "Massa",
+    "Blockchain",
+    "Smart",
+    "Contract"
+  ],
+  "author": "Altai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altai0/massa-deployer/issues"
+  },
+  "homepage": "https://github.com/altai0/massa-deployer#readme",
+  "dependencies": {
+    "@massalabs/massa-web3": "^1.10.10",
+    "loading-cli": "^1.1.0",
+    "tslib": "^2.4.1"
+  }
+}
