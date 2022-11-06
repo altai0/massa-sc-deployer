@@ -9,7 +9,7 @@ Clone this project
 git clone https://github.com/altai0/massa-sc-deployer.git
 ```
 
-Go to the root of your folder and run this command  
+Go to the root folder and run this command  
 
 ```sh
 npm install
