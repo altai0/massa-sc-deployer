@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/altai0/massa-deployer#readme",
   "dependencies": {
-    "@massalabs/massa-web3": "^1.10.10",
+    "@massalabs/massa-web3": "^1.11.0",
     "loading-cli": "^1.1.0",
     "tslib": "^2.4.1"
   }
